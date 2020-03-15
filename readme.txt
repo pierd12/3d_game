@@ -7,7 +7,7 @@ Pier Damouny
 Adham Jbarin
 
 To compile the project :
-1.Clone or download the project
+1.Clone or download the project https://github.com/tamirgrBGU/EngineForAnimationCourse
 2.Change EngineForAnimationCourse\CmakeList File (Use ImGui -- On) (Use PNG -- On)
 3.Change EngineForAnimationCourse\tutorial\sandBox\CmakeList File
 3.1 Add igl::opengl_glfw_imgui igl::png to target_link_libraries
@@ -65,8 +65,6 @@ Our THOUGHTS:
 --imgui is very powerful and intersting 
 --hard time:
 ---adding imgui was a little bit hard since our renderer and viewer and display and input manager all are in
-----the viewer in libigl 
----we didnt know how to add fog since we use glad.h wich dont have GLFOGV F FV 
----Cube Maps is not implemented in libigl 
+----the viewer in libigl
 ---exam period and other projects 
 ---we wish we had more time to do more and more things in that project
